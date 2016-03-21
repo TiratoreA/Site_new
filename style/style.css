@@ -1,0 +1,177 @@
+*{
+	margin:0; padding:0;
+
+}
+
+@font-face {
+    font-family: helveticaneuecyr-light; 
+    src: url(fonts/helveticaneuecyr-light.otf) 
+}
+
+body {
+	font-family: helveticaneuecyr-light;
+}
+
+.wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.container {
+	width: 1024px;
+	margin: auto;
+}
+
+.top-header{
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	margin-top: 50px;
+}
+
+.header{
+	 width:1280px; 
+	 margin:0 auto;
+	 overflow: hidden;
+}
+
+.logo{
+	float:left;
+}
+.menu{
+	display: inline-block;
+	margin-top: 15px;
+}
+.menu li{
+	
+	display: inline-block;
+	margin: 0  0 0 125px;
+
+}
+		
+.menu li a{
+		overflow:hidden;
+	display: block; 
+	vertical-align: middle; 
+	display: table-cell;
+	font: 24px helveticaneuecyr-light, Verdana, Geneva, sans-serif; 
+	color: #9D9E9F; 
+	text-decoration: none;
+
+
+}
+
+.menu li:hover a{
+	font-weight: bold;
+	color: #9D9E9F; 
+}
+
+.menu .active{
+	background: url(../images/logo-bg.png) bottom right no-repeat;  
+	font: 20px bold helveticaneuecyr-ligh, Verdana, Geneva, sans-serif; 
+	color: #9D9E9F;  
+	
+}
+
+.content-container {
+	margin-top: 50px;
+	margin-bottom: 125px;
+}
+
+.content-container .row {
+	margin: 0 -3px;
+}
+
+.content-container .col-6 {
+	position: relative;
+	padding: 3px;
+}
+
+.img-block {
+	overflow:hidden;
+	width: 100%;
+	display: inline-block;
+}
+
+.text-block {
+	position: absolute;
+	top: 45px;
+	left: 45px;
+}
+
+.text-block	p {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #9D9E9F;
+}
+
+.img-block img {
+ -moz-transition: all 2s ease-out;
+ -o-transition: all 2s ease-out;
+ -webkit-transition: all 2s ease-out;
+ transition: all 2s ease-out;
+ }
+ 
+.img-block img:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+ }
+
+footer{
+	background: #EEEEEE; 
+	width: 100%;
+	display: block;
+}
+
+footer .container{
+	display: block;
+	margin: auto;
+	padding-top: 80px;
+}
+
+.social{
+	display:inline-block;
+}
+
+.social li a{
+	height: 30px;
+	display: block;
+	background-repeat: no-repeat;
+	padding: 20px;
+	text-align: left;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.be a{
+	background-image: url(../images/be.png);
+	width: 48px;
+	margin-right: 20px;
+}
+.fb a{
+	background-image: url(../images/fb.png);
+	width: 30px;
+	margin-right: 20px;
+}
+.vk a{
+	background-image: url(../images/vk.png);
+	width: 48px;
+
+}
+
+.logo-end{
+	position: relative;
+}
+
+.footer-bottom{
+	text-align: right;
+	padding: 17px;
+}
+
+.foot{
+	display: inline-block;
+}
