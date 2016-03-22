@@ -65,8 +65,58 @@ font: 20px 'helveticaneuecyr-light', Verdana, Geneva, sans-serif;
 	color: #9D9E9F; 
 text-align: left;
 }
-.text-position{
-	width: 1024px;
+.text-position .col-4{
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
+.photo-wrapper{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	
+	margin: auto;
+	margin-top: 115px;
+
+}
+
+.photo-1{
+	float: left;
+	}
+
+.col-4  img {
+float: center;
+position: relative;
+margin: 0 auto;
+	}
+
+
+.photo-3{
+float: right;
+}
+.col-4{
+	position: relative;
+	height: 300px;
+
+	
+}
+.text-photo-1{
+	position: absolute;
+	margin-top: 180px;
+	}
+.text-photo-2{
+	position: absolute;
+	margin-top: 20px;
+	}
+
+.text-photo-2 p{
+	text-align: center;
+}	
+	.text-photo-3{
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 180px;
+	}
+	.text-photo-3 p{
+		text-align: right;
+	}
